@@ -26,7 +26,7 @@ const SocialProof = () => {
 const Wrapper = styled.main`
 	height: 80vh;
 	width: 80vw;
-	background-color: var(--white);
+
 	display: grid;
 	place-items: center;
 	row-gap: 50px;
