@@ -17,7 +17,7 @@ const Review = ({ name, verified, text, image, index }) => {
 	);
 };
 
-const Wrapper = styled.article`
+const Wrapper = styled.div`
 	height: 225px;
 	width: 33%;
 	background-color: var(--very-dark-magenta);

@@ -9,16 +9,16 @@ const SocialProof = () => {
 	return (
 		<Wrapper>
 			<Heading id='heading' {...heading} />
-			<section id='ratings'>
+			<div id='ratings'>
 				{ratings.map((rating, index) => {
 					return <Rating key={index} {...rating} index={index} />;
 				})}
-			</section>
-			<section id='reviews'>
+			</div>
+			<div id='reviews'>
 				{reviews.map((review, index) => {
 					return <Review key={index} {...review} index={index} />;
 				})}
-			</section>
+			</div>
 		</Wrapper>
 	);
 };

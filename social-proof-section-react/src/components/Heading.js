@@ -10,7 +10,7 @@ const Heading = ({ main, sub }) => {
 	);
 };
 
-const Wrapper = styled.article`
+const Wrapper = styled.div`
 	width: 80%;
 
 	margin: auto;

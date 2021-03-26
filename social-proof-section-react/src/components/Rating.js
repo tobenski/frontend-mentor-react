@@ -21,7 +21,7 @@ const Rating = ({ stars, text, index }) => {
 	);
 };
 
-const Wrapper = styled.article`
+const Wrapper = styled.div`
 	background-color: var(--light-grayish-magenta);
 	width: 500px;
 	display: flex;
