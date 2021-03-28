@@ -34,6 +34,7 @@ p,
 article,
 section {
     font-family: 'Inter', sans-serif;
+    color: var(--dark-blue);
 }
 
 @media (min-width: 640px) {
