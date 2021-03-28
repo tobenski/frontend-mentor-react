@@ -54,6 +54,7 @@ function App() {
                         className={`${error ? 'error' : null}`}
                         value={email}
                         onChange={handleChange}
+                        aria-label='email'
                     />
 
                     <button type='submit'>
